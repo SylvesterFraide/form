@@ -1,0 +1,163 @@
+body{
+
+    background-color: lightgray;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#header{
+    background-color: black;
+    border-bottom: 2px solid red;
+    color: white;
+}
+#header a:hover{
+    color: red;
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+#header li{
+    float: left;
+    list-style-type: none;
+    display: inline;
+   padding: 10px;
+}
+
+.nav{
+    float: right;
+}
+
+
+#hero h1{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 140px;
+    font-size: 30px;
+
+}
+#hero h2{
+    text-align: center;
+
+}
+
+#hero{
+    background-image: url(../img/kenite1.jfif);
+    height: 450px;
+
+}
+
+
+#about{
+    text-transform: uppercase;
+    color: blue;
+}
+
+#about:hover{
+    color: red;
+}
+.main{
+    display: inline;
+    padding: 30px;
+}
+
+/* products*/
+#pro{
+    text-align: center;
+    color: blue;
+    text-transform: capitalize;
+}
+#pro:hover{
+    color: red;
+}
+
+#image{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+#image img{
+    width: 200px;
+    height: 120px;
+    float: right;
+}
+
+.more{
+    margin-top:450px;
+    text-align: center;
+    
+}
+
+.read{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.read:hover{
+    color: red;
+}
+
+.image{
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 260px;
+}
+
+.image img{
+    margin-top: 20px;
+    width: 50px;
+
+}
+.image img:hover{
+    transform: scale(1.2);
+
+}
+
+#image img:hover{
+   transform: scale(1.3);
+
+}
+
+
+
+footer{
+    text-decoration: none;
+    text-align: center;
+    background-color: orchid;
+    border-top: 2px dashed blue;
+    font-size: 20px;
+    height: 100px;
+}
+footer p{
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
